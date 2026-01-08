@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Instagram Login Demo</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #fafafa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .box {
+      background: white;
+      padding: 30px;
+      border: 1px solid #ccc;
+      width: 300px;
+      text-align: center;
+    }
+    input {
+      width: 90%;
+      padding: 8px;
+      margin: 8px 0;
+    }
+    button {
+      width: 95%;
+      padding: 8px;
+      background: #3897f0;
+      color: white;
+      border: none;
+    }
+    small {
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <h2>Instagram</h2>
+  <input type="text" placeholder="Phone number, username, or email">
+  <input type="password" placeholder="Password">
+  <button>Log In</button>
+  <br><br>
+  <small>Demo page for educational testing only</small>
+</div>
+
+</body>
+</html>
